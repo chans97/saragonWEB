@@ -97,10 +97,14 @@ header {
 
 .nav>ul>li:hover .dep {
     opacity: 1;
-    left: -30%;
+    left: -25%;
     pointer-events: auto;
     top: 100%;
-    z-index: 1
+    z-index: 1;
+}
+
+.nav>ul>li:hover {
+    color: var(--main-color);
 }
 
 .nav .dep :hover {
