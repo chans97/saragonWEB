@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:none;opacity:.6}.cls-2{fill:#242424}
+        </style>
+    </defs>
+    <g id="google_play_logo_b" transform="translate(-1149.027 573.817)">
+        <path id="사각형_73" d="M0 0h32v32H0z" class="cls-1" data-name="사각형 73" transform="translate(1149.027 -573.817)"/>
+        <g id="ic" transform="translate(1150.995 -573.713)">
+            <path id="패스_15" d="M20.929 10.553L18 8.858 14.463 13.2l3.6 4.429 2.864-1.654a3.215 3.215 0 0 0 1.852-2.712 3.209 3.209 0 0 0-1.85-2.71z" class="cls-2" data-name="패스 15" transform="translate(4.027 2.328)"/>
+            <path id="패스_16" d="M6.293 28.531l10.725-13L6.429 2.666c-.034 0-.069-.017-.1-.017C4.7 2.649 3.6 3.957 3.6 5.905V25.28c0 1.931 1.086 3.232 2.693 3.251z" class="cls-2" data-name="패스 16"/>
+            <path id="패스_17" d="M19.227 10.351L7.5 3.382l8.615 10.9z" class="cls-2" data-name="패스 17" transform="translate(1.565 .294)"/>
+            <path id="패스_18" d="M16.178 12.746L7.329 23.919l12.034-7.145z" class="cls-2" data-name="패스 18" transform="translate(1.497 3.723)"/>
+        </g>
+    </g>
+</svg>

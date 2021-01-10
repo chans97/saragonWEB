@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Nanum Square';
+	src: url('../fonts/nanumsquarer.eot');
+	src: url('../fonts/nanumsquarer.eot?#iefix') format('embedded-opentype'), url('../fonts/nanumsquarer.woff') format('woff'), url('../fonts/nanumsquarer.ttf') format('truetype'), url('../fonts/nanumsquarer.svg#nanumsquarerregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+ }
