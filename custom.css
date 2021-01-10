@@ -2,10 +2,12 @@
 
 :root {
     --main-color: #e67e22;
+    --sub-color: #27ae60
 }
 
 body {
     margin: 0;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 ul {
@@ -54,7 +56,6 @@ header {
 }
 
 .nav {
-    font-family: 'Gothic A1', sans-serif;
     font-weight: 700;
     height: 100%;
     display: flex;
@@ -127,7 +128,7 @@ header {
 .main_container {
     width: 100%;
     height: 80%;
-    background-color: blanchedalmond;
+    background-color: ;
 }
 
 
@@ -135,9 +136,68 @@ header {
 
 .footer {
     width: 100%;
-    height: 100px;
-    background-color: var(--main-colar);
+    height: 200px;
+    background-color: var(--sub-color);
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    ;
+}
+
+.footer .contents {
+    margin-top: 30px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .contents .footer_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.footer .contents .footer_ul .footer_li {
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer .contents .footer_ul .footer_li .description {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contents .footer_ul .footer_li .description .description_contents {
+    font-weight: 500;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.footer .contents .footer_ul .footer_li .description .description_contents .sns_icon {
+    height: 25px;
+    padding: 3px;
+    padding-top: 0px;
+}
+
+.footer .contents .footer_ul .footer_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+}
+
+.footer .information .copyright {
+    margin-top: 7px;
+    font-weight: 700;
 }
 
 
