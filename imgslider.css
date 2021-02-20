@@ -24,7 +24,7 @@
 }
 /* container - body */
 #container {
-  width: 1000px;
+  width: 100%;
   margin: auto;
 }
 .slide_wrap {
@@ -102,7 +102,7 @@
 
 /* container - body */
 #container2 {
-  width: 1000px;
+  width: 100%;
   margin: auto;
 }
 .slide_wrap2 {

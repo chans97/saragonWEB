@@ -11,3 +11,10 @@ const moveToSecond = () => {
   window.scrollTo({ top: location2 - 130, behavior: "smooth" });
   console.log("location");
 };
+
+const moveToThird = () => {
+  const location2 = document.querySelector("#thirdContent").offsetTop;
+
+  window.scrollTo({ top: location2 - 130, behavior: "smooth" });
+  console.log("location");
+};

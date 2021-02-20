@@ -14,28 +14,21 @@
     <meta property="og:image" content="http://www.saragon.com/web/img/web/meta_main_re.jpg" />
     <title>사라곤 | 지역설화를 통한 유아 교육</title>
 
-    <!-- Favicon 
-    <link rel="shortcut icon" href="https://www.tictoccroc.com/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="https://www.tictoccroc.com/img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://www.tictoccroc.com/img/apple-touch-icon.png">
-        -->
-    <!-- Google Tag Manager 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T6G52R2');</script>
-     End Google Tag Manager -->
     <link rel="stylesheet" type="text/css" href="./custom.css" />
     <link rel="stylesheet" href="./imgslider.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;900&display=swap"
       rel="stylesheet" />
-    <script defer src="./js/scrolldown.js"></script>
+    <script defer src="./js/titleopacity.js"></script>
+    <script defer src="./js/imgslider.js"></script>
+    <script defer src="./js/imgslider2.js"></script>
+    <script defer src="./js/scrollmove.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header class="">
+    <header class="header_contents">
       <div class="in_box header_wrap">
         <h1 class="logo">
           <a href="./index.html">
@@ -74,8 +67,49 @@
       </div>
     </header>
     <div class="main_container">
-      <img class="main_img" src="./static/test2.jpg" alt="" srcset="" />
-      <img class="main_img" src="./static/test1.jpg" alt="" srcset="" />
+      <div class="title_div teamintroduce">
+        <div class="flex2"></div>
+        <div class="title_text_div unopacity">
+          <span class="title_text">ANIMATION</span>
+          <span class="sub_text chd_a_margin">
+            <a href="#" onclick="moveToFirst(); return false;"> 팔도깨비 전래동화 애니메이션
+            </a>
+          </span>
+        </div>
+        <div class="flex1"></div>
+      </div>
+
+      <div class="contents_div in_box flexul" id="firstContent">
+        <div class="content_title">
+          <span>팔도깨비</span>
+        </div>
+        <div class="animations">
+          <div class="animation_wrap">
+            <div class="animation_card text-pop-up-top">
+              <span>팔도깨비 전래동화</span>
+              <span>애니메이션</span>
+            </div>
+          </div>
+          <div class="animation_wrap">
+            <div class="animation_card text-pop-up-top">
+              빈칸
+            </div>
+          </div>
+          <div class="animation_wrap">
+            <div class="animation_card text-pop-up-top">
+              빈칸
+            </div>
+          </div>
+        </div>
+        <div class="content_des">
+          <div class="content_des_icon_text"> 바로가기</div>
+          <div class="content_des_icon">
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <footer class="footer">
